@@ -4,7 +4,7 @@ This project delves into exploring and benchmarking various techniques for execu
 
 This R&D (Spike) Projects shows you to create and manage bidirectional communication between isolates. Isolates are separate threads of execution that can run independently of each other. This can be useful for tasks that are computationally expensive or that require a lot of memory.
 
-In the code you provided, there are three main files:
+There are three main files:
 
 - main.dart: This is the main file of the application. It contains the code that creates the isolates and starts the communication between them.
 - compute_test.dart: This file contains the code that performs the heavy computation. It is executed in a separate isolate.
